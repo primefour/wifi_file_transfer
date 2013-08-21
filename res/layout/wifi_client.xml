@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/client_scan_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描热点"
+        />
+    <ListView 
+        android:id="@+id/client_ap_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below = "@+id/client_scan_button"
+        android:background="#ffdfdfdf"
+        />
+    <ProgressBar
+        android:id="@+id/progressBarAction"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        />
+    <TextView
+        android:id="@+id/client_ap_list_empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above = "@+id/progressBarAction"
+        android:layout_marginBottom="10dp"
+        android:text="@string/client_no_access_point"
+        android:background="#000000"
+        />
+</RelativeLayout>
+
+

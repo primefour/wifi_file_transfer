@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APWifi</string>
+
+    <string name="initialize_Activity_failed">Initialize failed</string>
+    <string name="access_point_init_status">No active access point.</string>
+
+
+    <string name="access_point_enable_dialog_title">Wait a moment</string>
+    <string name="access_point_enable_dialog_msg">Enabling an access point !</string>
+    <string name="access_point_disable_dialog_title">Wait a moment</string>
+    <string name="access_point_disable_dialog_msg">Disabling an access point !</string>
+
+    <string name="access_point_enabled">Enabled</string>
+    <string name="access_point_enabling">Enabling</string>
+    <string name="access_point_failed">Failed</string>
+    <string name="access_point_cancel">Cancel</string>
+
+    <string name="access_point_enable_button_text">Enable</string>
+    <string name="access_point_disable_button_text">Disable</string>
+
+    <string name="access_point_song_name">Song Name</string>
+    <string name="access_point_song_info">Song Info</string>
+    <string name="access_point_no_song_to_share">No song to share!</string>
+
+
+    <string name="client_button_download">Download</string>
+    <string name="client_button_download_cancel">Cancel</string>
+
+
+    <string name="client_dialog_title_cancel">Download Cancel ?</string>
+    <string name="client_dialog_content_cancel">Do you want to cancel the download now?</string>
+    <string name="client_dialog_title_running_warn">Downloading Now !</string>
+    <string name="client_dialog_content_running_cancel">Do you want to interrupt this download ?</string>
+    <string name="client_dialog_button_ok">OK</string>
+    <string name="client_dialog_button_no">No</string>
+    <string name="client_dialog_title_wait">Start to Download!</string>
+    <string name="client_dialog_title_wait_msg"> Downloading!</string>
+    <string name="client_wifi_connect_init_msg">Wifi is initializing now !</string>
+    <string name="client_wifi_connecting_msg">Wifi is connecting now !</string>
+    <string name="client_wifi_connected_msg">Wifi has connected now !</string>
+    <string name="client_download_complete_msg">Download completely !</string>
+    <string name="client_download_error_msg">Download error !</string>
+    <string name="client_download_pause_msg">Download pause !</string>
+    <string name="client_download_cancel_msg">Download canceled !</string>
+    <string name="client_no_access_point">no access point to share file !</string>
+    <string name="client_song_name">Song Name</string>
+    <string name="client_song_detail">Song Detail</string>
+</resources>
